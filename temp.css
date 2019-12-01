@@ -1,0 +1,262 @@
+.container{
+    /*background-color: white;*/
+    display:flex;
+    flex-direction:column;
+    height: 800px;
+    width: 1425px;
+}
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+    
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+#title{
+    flex-basis:600px;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+}
+#z{
+    width: 475px;
+}
+#eee1, #eee2, #eee3{
+    flex-basis: 475px;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+}
+
+#www1{
+    flex-basis:150px;
+    /*border: 1px solid black;*/
+}
+
+#www2{
+    flex-basis:240px;
+    /*border: 1px solid black;*/
+    /*background: white;*/
+}
+#www3{
+    flex-basis:300px;
+    /*border: 1px solid black;*/
+}
+
+
+#qqq1{
+    flex-basis:0px;
+    /*border: 1px solid black;*/
+}
+#qqq2{
+    flex-basis:150px;
+    /*border: 1px solid black;*/
+}
+#qqq3{
+    flex-basis:350px;
+    /*border: 1px solid black;*/
+}
+
+
+#rrr1{
+    flex-basis:50px;
+    /*border: 1px solid black;*/
+}
+#rrr2{
+    flex-basis:200px;
+    /*border: 1px solid black;*/
+}
+#rrr3{
+    flex-basis:250px;
+    /*border: 1px solid black;*/
+}
+
+
+
+#lowbar{
+    flex-basis:200px;
+    /*border: 1px solid black;*/
+}
+.login{
+  background:white;
+}
+
+.login .top {
+          background:white;
+          position: relative;
+          width: 310px;
+          height:40px;
+        }
+        .login .top li {
+          padding: 0 0 9px;
+        }
+        .login .top li label{
+          display: inline-block;
+          width: 63px;
+          font-size: 13px;
+          color: #464646;
+          font-family: dotum;
+          font-weight: bold;
+        }
+        .login .top li input [type="text"],
+        .login .top li input [type="password"] {
+          width:144px;
+          height: 29px;
+          padding: -3;
+          border-color: #fff;
+          position:static;
+        }
+        .login .top btn {
+          position: auto;
+          left: 50px;
+          top: 0;
+        }
+        .login .top li a {
+          display: inline-block;
+          width: 100px;
+          height: 45px;
+          background: pink;
+          border: 1px solid #778f28;
+          font-size: 17px;
+          color: #fff;
+          text-align: center;
+          line-height:45px;
+          font-weight: bold;
+          margin-left:auto;
+          position:absolute;
+          top:0px;
+          left:230px;
+
+        }
+        .login btm {
+          background:white;
+          padding: 10px 0 0 30px;
+        }
+        .login btm li a{
+          padding: 0 0 0 9px;
+          font-size: 10px;
+          font-family: dotum;
+          line-height: 24px;
+        }
+        .login btm li a {
+          margin: 0 0 0 5px;
+          font-size: 10px;
+          font-family: dotum;
+          font-weight: bold;
+          /*color: #829c2c;*/
+          text-decoration: underline;
+        }
+      .body, html {
+        margin: 0;ㅕ
+        padding: 0;
+        height: 100%;
+      }
+      
+      .nas {
+        height: 50px;
+        display: flex;
+        align-items: center;
+      }
+
+      .nas-item-right {
+        display: flex;
+        margin-left: auto;
+      }
+
+      .nas-item {
+        margin-left: 100px;
+      }
+
+/*q&a게시판*/
+      .site-item a{
+        float:left;
+        margin-top:100px;
+
+      }
+
+      .site-item2 a{*/
+        align-items: center;
+        float: left;
+        margin-left:30px;
+      }
+      /*사이트소개*/
+      .site-item3 a{
+        float:left;
+        margin-top:100px;
+        
+
+      }
+      .c-name {
+        margin-left: 20px;
+      }
+
+      .title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+      }
+
+      .sub-title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 300;
+        margin-left:50px;
+      }
+
+      .main {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+      .site-item-title {
+        font-size: 1rem;
+        height: 30px;
+        /*display: flex;*/
+        float:left;
+      }
+      .site-item-title2 {
+        font-size: 1.3rem;
+        height: 30px;
+        display: flex;
+        margin-left:50px;
+        margin-bottom:60px;
+        color: navy;
+        
+      }
+      .site-item-detail {
+        font-weight: bold;
+      }
+
+      .site-item-button {
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height:0.8;
+        border-radius: .3rem;
+        color: #007bff;
+        backgroung-color: transparent;
+        backgroung-image: none;
+      }
+
+      .earth {
+        margin-top: auto;
+        margin-bottom:auto;
+        text-align:center;
+        height: 600px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0px auto;
+        display: block;
+      }
+      
+      .text {
+        /*background:white;*/
+        vertical-align:middle;
+        text-align:center;
+      }
+      .site-item2 a{
+      color:blue;
+    }
+
