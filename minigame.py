@@ -1,5 +1,9 @@
 import pygame
 import os
+import tkinter
+import hangman
+import snakegame
+
 
 Now = os.path.dirname(__file__)
 
@@ -83,14 +87,16 @@ def runGame():
             elif event.type == pygame.MOUSEBUTTONUP:
                 mx, my = pygame.mouse.get_pos()
                 if mx > 180 and mx < 340 and my > 200 and my < 330:
-                    print("1")
+                    gamepad.fill(WHITE)
+                    hangman.StartScreen()
+                    hangman.PreHangMan()
+                    hangman.main()
                 if mx > 500 and mx < 660 and my > 200 and my < 330:
-                    print("2")
+                    snakegame.home(0.0)
                 if mx > 180 and mx < 340 and my > 440 and my < 580:
                     print("3")
                 if mx > 550 and mx < 660 and my > 440 and my < 580:
                     print("4")
-
         gamepad.fill(WHITE)
         back(background_x, 0)
         title(title_x, title_y)
@@ -112,7 +118,12 @@ def runGame():
 def initGame():
     global gamepad, clock, block1, block2, block3, block4, background, titlepicture,  gametitle1, gametitle2, gametitle3, gametitle4
     pygame.init()
+    Sound = os.path.join(Now, "sound")
+    pygame.mixer.init()
     clock = pygame.time.Clock()
+    B_sound = os.path.join(Sound, "mybgm.mp3")
+    pygame.mixer.music.load(B_sound)
+    pygame.mixer.music.play()
     Img = os.path.join(Now, "img")
     gamepad = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("sub's minigame")
