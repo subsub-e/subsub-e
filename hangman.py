@@ -23,7 +23,7 @@ pygame.init()
 pygame.display.set_caption("Hangman")
 
 # 32 bit display
-Display = pygame.display.set_mode((500, 500), 0, 32)
+Display = pygame.display.set_mode((800, 600), 0, 32)
 
 Easy = ["BELL", "STAR", "PICNIC", "PIE", "HAT", "HEART", "FLAG"]
 Medium = ["CARPET", "POPCORN", "SEAFOOD", "DOORBELL", "COWBOY",
@@ -149,11 +149,6 @@ def main():
     GREEN = (0, 255, 0)
     BLUE = (0, 0, 255)
     TheChoice = 0
-
-
-    StartScreen()
-
-    PreHangMan()
 
     FirstCondi = True
     while FirstCondi:
@@ -409,4 +404,3 @@ def main():
             sys.exit()
 
 
-main()
