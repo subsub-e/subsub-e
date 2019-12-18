@@ -3,7 +3,8 @@ import os
 import tkinter
 import hangman
 import snakegame
-
+import sudoku44
+import 같은그림찾기
 
 Now = os.path.dirname(__file__)
 
@@ -94,9 +95,9 @@ def runGame():
                 if mx > 500 and mx < 660 and my > 200 and my < 330:
                     snakegame.home(0.0)
                 if mx > 180 and mx < 340 and my > 440 and my < 580:
-                    print("3")
+                    같은그림찾기.main()
                 if mx > 550 and mx < 660 and my > 440 and my < 580:
-                    print("4")
+                    sudoku44.start()
         gamepad.fill(WHITE)
         back(background_x, 0)
         title(title_x, title_y)
