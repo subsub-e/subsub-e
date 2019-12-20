@@ -5,10 +5,12 @@ import hangman
 import snakegame
 import sudoku44
 import 같은그림찾기
+import sys
 
 Now = os.path.dirname(__file__)
 
 WHITE = (255,255,255)
+clean = (0,0,0,0)
 WIDTH = 800
 HEIGHT = 600
 
@@ -55,9 +57,13 @@ def startbutton4(x4,y4):
     global gamepad, block4
     gamepad.blit(block4, (x4, y4))
 
+def Exitbutton(x5, y5):
+    global gamepad, block5
+    gamepad.blit(block5, (x5, y5))
+
 
 def runGame():
-    global gamepad, clock, block1, block2, block3, block4, background, titlepicture, gametitle1, gametitle2, gametitle3, gametitle4
+    global gamepad, clock, block1, block2, block3, block4, block5, background, titlepicture, gametitle1, gametitle2, gametitle3, gametitle4
 
     x1 = WIDTH * 0.2
     y1 = HEIGHT * 0.3
@@ -67,6 +73,8 @@ def runGame():
     y3 = HEIGHT * 0.7
     x4 = WIDTH * 0.6
     y4 = HEIGHT * 0.7
+    x5 = 750
+    y5 = 25
 
     background_x = 0
     title_x = 275
@@ -79,6 +87,7 @@ def runGame():
     gametitle_y3 = 380
     gametitle_x4 = 440
     gametitle_y4 = 380
+    
 
     crashed = False
     while not crashed:
@@ -98,6 +107,13 @@ def runGame():
                     같은그림찾기.main()
                 if mx > 550 and mx < 660 and my > 440 and my < 580:
                     sudoku44.start()
+                if mx > 720 and mx < 770 and my > 20 and my < 60:
+                    print("지금까지 게임을 즐겨주셔서 감사합니다.")
+                    pygame.quit()
+                    sys.exit()
+            
+                    
+
         gamepad.fill(WHITE)
         back(background_x, 0)
         title(title_x, title_y)
@@ -105,6 +121,7 @@ def runGame():
         startbutton2(x2, y2)
         startbutton3(x3, y3)
         startbutton4(x4, y4)
+        Exitbutton(x5, y5)
         title1(gametitle_x1, gametitle_y1)
         title2(gametitle_x2, gametitle_y2)
         title3(gametitle_x3, gametitle_y3)
@@ -117,18 +134,19 @@ def runGame():
 
 
 def initGame():
-    global gamepad, clock, block1, block2, block3, block4, background, titlepicture,  gametitle1, gametitle2, gametitle3, gametitle4
+    global gamepad, clock, block1, block2, block3, block4, block5, background, titlepicture,  gametitle1, gametitle2, gametitle3, gametitle4
     pygame.init()
     Sound = os.path.join(Now, "sound")
     pygame.mixer.init()
+    Img = os.path.join(Now, "img")
     clock = pygame.time.Clock()
     B_sound = os.path.join(Sound, "mybgm.mp3")
     pygame.mixer.music.load(B_sound)
     pygame.mixer.music.play()
-    Img = os.path.join(Now, "img")
     gamepad = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("sub's minigame")
     Start_B = os.path.join(Img, "startbutton.png")
+    Exit_1 = os.path.join(Img, "Exit.png")
     gametitle_1 = os.path.join(Img, "gametitle1.png")
     gametitle_2 = os.path.join(Img, "gametitle2.png")
     gametitle_3 = os.path.join(Img, "gametitle3.png")
@@ -139,6 +157,9 @@ def initGame():
     block2 = pygame.image.load(Start_B).convert_alpha()
     block3 = pygame.image.load(Start_B).convert_alpha()
     block4 = pygame.image.load(Start_B).convert_alpha()
+    block5 = pygame.image.load(Exit_1).convert_alpha()
+    block5_scale = pygame.transform.scale(block5, (60, 31)) # 스케일 변환
+    pygame.image.save(block5_scale, "Exit.png")
     gametitle1 = pygame.image.load(gametitle_1).convert_alpha()
     gametitle2 = pygame.image.load(gametitle_2).convert_alpha()
     gametitle3 = pygame.image.load(gametitle_3).convert_alpha()
