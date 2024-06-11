@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=slice&text=subsub-e&desc=frontend-developer&fontAlign=80&fontAlignY=50&descAlign=80&descAlignY=70&color=0047ab&fontColor=ffffff&fontSize=60&descSize=20&descSpacing=15)
+![header](https://capsule-render.vercel.app/api?type=slice&text=subsub-e&desc=frontend-developer&fontAlign=100&fontAlignY=50&descAlign=100&descAlignY=80&color=0047ab&fontColor=ffffff&fontSize=60&descSize=20&descSpacing=15)
 
 <div align="center">
 
@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
 <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" />
 
-<h3 align="center"> 📫 Contact 📫 </h3>
+<h2 align="center"> 📫 Contact 📫 </h2>
 <div align="center">
   <a href="https://velog.io/@lcs3623/posts">
     <img src="https://img.shields.io/badge/Velog-1EBC8F?style=for-the-badge&logo=velog&logoColor=white" />
