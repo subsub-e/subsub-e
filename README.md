@@ -18,7 +18,7 @@
 <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" />
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)
+
 
 <h2 align="center"> 📫 Contact 📫 </h2>
 <div align="center">
@@ -27,3 +27,7 @@
 </div>
 
 </div>
+
+<!--
+{*![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)
+-->
