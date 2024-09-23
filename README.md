@@ -22,7 +22,9 @@
 
 <h2 align="center"> 📫 Contact 📫 </h2>
 <div align="center">
+    <a href="https://velog.io/@lcs3623/posts" target="_blank">
     <img src="https://img.shields.io/badge/Velog-1EBC8F?style=for-the-badge&logo=velog&logoColor=white" />
+    </a>
     <img src="https://img.shields.io/badge/lcs3623@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white" />
 </div>
 
