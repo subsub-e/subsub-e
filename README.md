@@ -11,6 +11,7 @@
 
 <br/><br/>
 <h2> 🚀&nbsp; Experiences </h2>
+<div>⚡️ SW Maestro 16th (2025.04.01 ~ ing)</div><br/>
 <div>⚡️ 디프만 16기 - Web Frontend (2024.12.29 ~ ing)</div><br/>
 <div>⚡️ 현대자동차그룹 소프티어 부트캠프 - Web Frontend (2024.07.01~2024.08.28)</div><br/>
 <div>⚡️ 0&1 한양대학교 ERICA 알고리즘 학회</div>
