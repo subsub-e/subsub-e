@@ -24,11 +24,13 @@
   <li>파이썬, C언어 스터디 (2019.03 ~ 2019.06)</li>
 </ul>
 <br/><br/>
-<h2>💡 &nbsp;My Logs</h2>
+<h2>💡 &nbsp; BOJ</h2>
 
-![SeungSeop's GitHub stats](https://github-readme-stats.vercel.app/api?username=subsub-e&show_icons=true&theme=tokyonight)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/generate_badge?boj=lss3623)](https://solved.ac/lss3623)
+<p align = 'center'>
+  <a target="_blank" href="https://solved.ac/profile/lss3623">
+    <img src="https://github-readme-solvedac-hyp3rflow.vercel.app/api/?handle=lss3623&theme=dark">
+  </a>
+</p>
 
 <br/><br/>
 <h2> 📞 &nbsp;Contact  </h2>
