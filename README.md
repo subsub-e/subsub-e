@@ -26,9 +26,12 @@
 <br/><br/>
 <h2>💡 &nbsp; BOJ</h2>
 
-<p align = 'center'>
+<p align="center">
   <a target="_blank" href="https://solved.ac/profile/lss3623">
-    <img src="https://github-readme-solvedac-hyp3rflow.vercel.app/api/?handle=lss3623&theme=dark">
+    <img 
+      src="https://github-readme-solvedac-hyp3rflow.vercel.app/api/?handle=lss3623" 
+      width="100%" 
+    >
   </a>
 </p>
 
